@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #383737;
+}
+
+.calBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    max-height: 700px;
+    margin: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px #000000;
+}
+.history {
+    width: 89%;
+    height: 100px;
+    overflow-y: auto;
+    margin-top: 20px ;
+    padding: 5px;    
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    text-align: end;
+}
+.historyItem {
+    cursor: pointer;
+}
+.historyItem:hover {
+    background-color:  #eee;
+}
+#result {
+    width: 89%;
+    height: 60px;
+   
+    margin-top: 20px ;
+    padding: 5px;
+   
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    text-align: end;
+}
+
+.calMainButton {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+
+}
+
+.calColorButton {
+    background-color: #D4D4D2;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.calNumberButton {
+    background-color: #505050;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.calButton {
+    background-color: #FF9500;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+
+ #equalButton{
+    grid-column: 3/5;
+ }
+
+@media (max-width:450px)  {
+    button{
+        border-radius: 50%;
+    }
+    #equalButton {
+        border-radius: 25px;
+    }
+   
+}

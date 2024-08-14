@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+    <div class="calBody">
+        <div class="history" id="history"></div>
+      
+        <input type="text" name="result" id="result" placeholder="0" />
+
+        <div class="calMainButton">
+       
+            <button type="button" class="calColorButton" value="clearAll" onclick="clearAll()">
+                AC
+            </button>
+            <button type="button" class="calColorButton" value="Backspace" onclick="backSpace()">
+                C
+            </button>
+
+            <button type="button" class="calColorButton" value="%" onclick="valueAddFunction('%')">
+                %
+            </button>
+            <button type="button" class="calButton"  value="*" onclick="valueAddFunction('*')">
+                *
+            </button>
+            <button type="button" class="calNumberButton" value="1" onclick="valueAddFunction(1)">
+                1
+            </button>
+            <button type="button" class="calNumberButton" value="2" onclick="valueAddFunction(2)">
+                2
+            </button>
+            <button type="button" class="calNumberButton" value="3" onclick="valueAddFunction(3)">
+                3
+            </button>
+            <button type="button" class="calButton" value="/" onclick="valueAddFunction('/')">
+                /
+            </button>
+
+            <button type="button" class="calNumberButton" value="4" onclick="valueAddFunction(4)">
+                4
+            </button>
+            <button type="button" class="calNumberButton" value="5" onclick="valueAddFunction(5)">
+                5
+            </button>
+            <button type="button" class="calNumberButton" value="6" onclick="valueAddFunction(6)">
+                6
+            </button>            
+            <button type="button" class="calButton" value="+"  onclick="valueAddFunction('+')">
+                +
+            </button>
+            <button type="button" class="calNumberButton" value="7" onclick="valueAddFunction(7)">
+                7
+            </button>
+            <button type="button" class="calNumberButton" value="8" onclick="valueAddFunction(8)">
+                8
+            </button>
+            <button type="button" class="calNumberButton" value="9" onclick="valueAddFunction(9)">
+                9
+            </button>
+            <button type="button" class="calButton" value="-"  onclick="valueAddFunction('-')">
+                -
+            </button>
+            <button type="button" class="calNumberButton"  value="0" onclick="valueAddFunction(0)">
+                0
+            </button>
+            <button type="button" class="calNumberButton" value="." onclick="valueAddFunction('.')">
+                .
+            </button>      
+            <button type="button" class="calButton" id="equalButton"  value="=" onclick="calValue()">
+                =
+            </button>
+          
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
