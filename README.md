@@ -16,4 +16,4 @@ This is a simple calculator application built using HTML, CSS, JavaScript.
 # Technologies Used
 - HTML: For structuring the calculator.
 - CSS: For Styling.
-- JavaScript: For imlementing the calculator logic.
+- JavaScript: For implementing the calculator logic.
