@@ -10,7 +10,7 @@ This is a simple calculator application built using HTML, CSS, JavaScript.
 - Keyboard Support: User can also use their keyboard for input.
 - Responsive Design: The calculator interface is responsive.
 <br>
-![CalculatorImage2](./Calculator-Image2.png)
+![Image2](./Calculator-Image2.png)
 
 # Technologies Used
 - HTML: For structuring the calculator.
