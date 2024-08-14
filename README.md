@@ -1,7 +1,7 @@
 # Simple-Calculator
 This is a simple calculator application built using HTML, CSS, JavaScript.
 <br>
-![CalculatorImage](./Simple-Calculator\Calculator-Image.png)
+![CalculatorImage](./Calculator-Image.png)
 
 # Features 
 - Basic Operations: Addition, subtraction, multiplication, division and modulo.
@@ -9,7 +9,7 @@ This is a simple calculator application built using HTML, CSS, JavaScript.
 - Keyboard Support: User can also use their keyboard for input.
 - Responsive Design: The calculator interface is responsice.
 <br>
-![CalculatorImage](./Simple-Calculator\Calculator-Image2.png)
+![CalculatorImage](./Calculator-Image2.png)
 
 # Technologies Used
 - HTML: For structuring the calculator.
