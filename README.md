@@ -7,9 +7,9 @@ This is a simple calculator application built using HTML, CSS, JavaScript.
 - Basic Operations: Addition, subtraction, multiplication, division and modulo.
 - Addition Function: Clear All (AC), delete (C).
 - Keyboard Support: User can also use their keyboard for input.
-- Responsive Design: The calculator interface is responsice.
+- Responsive Design: The calculator interface is responsive.
 <br>
-![CalculatorImage](./Calculator-Image2.png)
+![CalculatorImageResponsive](./Calculator-Image2.png)
 
 # Technologies Used
 - HTML: For structuring the calculator.
